@@ -20,6 +20,7 @@ public class Main {
     static {
         try {
 // Test
+// RESET
             Configuration configuration = new Configuration();
             configuration.configure();
             ourSessionFactory = configuration.buildSessionFactory();

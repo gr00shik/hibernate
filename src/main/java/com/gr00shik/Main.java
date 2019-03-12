@@ -19,6 +19,7 @@ public class Main {
 
     static {
         try {
+// RESET
             Configuration configuration = new Configuration();
             configuration.configure();
             ourSessionFactory = configuration.buildSessionFactory();
